@@ -18,7 +18,15 @@ img.logo{
   display: block;
   margin: 0 auto;
   height: 200px; 
-  max-width: auto;  
+  max-width: auto;
+
+  pointer-events: none;
+  user-select: none; 
+}
+
+.no-cursor {
+  color: transparent;
+  text-shadow: 0 0 0 #000000;
 }
 
 .title {
