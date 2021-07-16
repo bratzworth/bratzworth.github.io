@@ -11,7 +11,7 @@
 
 @font-face {
   font-family: 'redaction20-bold';
-  src: url('media/Redaction_20-Bold.woff2');
+  src: url('fonts/Redaction_20-Bold.woff2');
 }
 
 img.logo{
@@ -24,7 +24,7 @@ img.logo{
 .title {
   font-family: 'redaction20-bold';
   text-align: center;
-  font-size: 3vw;
+  font-size: 58px;
 
   position: absolute;
   top: 50%;
