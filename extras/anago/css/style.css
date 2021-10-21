@@ -1,0 +1,110 @@
+@charset "shift_jis";
+
+/*ページ全体の設定*/
+body{
+font-size: 80%;
+font-family: Verdana,Osaka,sans-serif;
+color:#443733; 
+line-height: 150%;
+padding:0;
+margin: 0;
+background:#be4587 url(/extras/anago/img/anagos.jpg) repeat;
+text-align: center;
+}
+
+html{
+scrollbar-arrow-color:#413b31;
+scrollbar-base-color:#be4587;
+scrollbar-face-color:#be4587;
+scrollbar-track-color:#413b31;
+scrollbar-3dlight-color:#413b31;
+scrollbar-highlight-color:#be4587;
+scrollbar-shadow-color:#be4587;
+scrollbar-darkshadow-color:#413b31;
+}
+
+img{
+border: none;
+}
+
+/*リンクの文字色、装飾設定*/
+a:link{
+color:#ff3399
+font-weight :bold; 
+}
+
+a:hover{
+color:#ff3399
+}
+
+a:visited{
+color:#ff3399
+}
+
+/*見出し文字*/
+h1{
+font-size: 100%;
+clear: both;
+width: auto;
+height: 20px;
+padding:0 0 0 22px;
+background: url(/extras/anago/img/h1.gif) no-repeat left center;
+border-bottom: 3px dotted #443733;
+letter-spacing: 2px;}
+
+/*全体*/
+#main{
+width: 700px;
+height: auto;
+background-color: #fff;
+position:absolute;
+left: 50%;
+margin-left: -350px;
+}
+
+/*サイトタイトル*/
+#title{
+width:700px;
+height: 50px;
+/*background-color: #00bfff;*/
+background-color: #dc143c;
+}
+
+#titlefont{
+padding:60px 0 0 0;
+font-size: 150%;
+text-align: right;
+letter-spacing: 5px;
+line-height: 100%;
+font-weight: bold;
+color: #443733;
+}
+
+
+/*フッター*/
+#footer{
+width: 700px;
+height: 50px;
+position:absolute;
+left: 50%;
+margin-left: -350px;
+font-size: 80%;
+clear: both;
+text-align: center;
+/*background-color: #00bfff;*/
+background-color: #dc143c;
+}
+
+#footerfont{
+padding: 10px 0 0 0;
+}
+
+/*テキスト*/
+.text{
+width: 600px;
+height: auto;
+text-align: left;
+margin-left: auto;
+margin-right: auto;
+}
+
